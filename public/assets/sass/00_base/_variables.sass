@@ -1,0 +1,21 @@
+// COLORS
+$pclr: #7dc6fd
+
+
+// GRADIENTS
+=text-protection($color)
+	+background-image(linear-gradient(to top, rgba($color, 0.3) 0%, rgba($color, 0.15) 35%, rgba($color, 0) 100%))
+
+
+// RESPONSIVE BREAKPOINTS
+$md: 992px
+$sm: 768px
+$xs: 512px
+
+$gtmd: "screen and (min-width:"+$md+")"
+$gtsm: "screen and (min-width:"+$sm+")"
+$gtxs: "screen and (min-width:"+$xs+")"
+
+$ltmd: "screen and (max-width:"+$md+")"
+$ltsm: "screen and (max-width:"+$sm+")"
+$ltxs: "screen and (max-width:"+$xs+")"

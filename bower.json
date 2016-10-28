@@ -1,0 +1,22 @@
+{
+  "name": "App",
+  "description": "Another single page app.",
+  "main": "server.js",
+  "authors": [
+    "Sergey Tyrtyshnikov"
+  ],
+  "install": {
+    "path": {
+      "css": "public/libs",
+      "js": "public/libs"
+    }
+  },
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-animate": "^1.5.8",
+  }
+}
